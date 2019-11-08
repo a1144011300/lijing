@@ -1,0 +1,306 @@
+.yh_head{
+    width: 100%;
+    background-color: #fff;
+}
+.yh_head_offer{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    display: flex;
+    padding: 60px 0;
+}
+.yh_head_offer_left{
+    position: relative;
+    flex: 1;
+}
+.yh_head_offer_right{
+    width: 584px;
+    height: 244px;
+    margin-left: 50px;
+}
+.yh_head_offer_right img{
+    height: 244px;
+    width: 540px;
+}
+.yh_head_offer_left h3{
+    color: #333;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: SimSun,Microsoft YaHei,serif;
+}
+.yh_head_offer_left_text{
+    margin-top: 20px;
+    color: #333;
+    opacity: .9;
+    font-size: 14px;
+    line-height: 24px;
+}
+.yh_head_offer_left_input{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.title-bold{
+    width: 83px;
+    height: 52px;
+    color: #333;
+    margin-right: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 52px;
+}
+.input_1{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    height: 52px;
+    line-height: 52px;
+}
+.input-con{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    flex: 1;
+    line-height: 52px;
+}
+.input-con input{
+    width: 436px;
+    height: 52px;
+    border-width: 0;
+}
+.text-medium{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    width: 118px;
+    height: 36px;
+    line-height: 36px;
+    border: 0;
+    color: #fff;
+    background-color: #876a20;
+    font-size: 14px;
+}
+
+
+/*
+yh_body的css属性
+ */
+
+.yh_body{
+    width: 100%;
+    background-color: #f1f1f1;
+}
+.yh_body_content{
+    background-color: #f1f1f1;
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recommended-offer{
+    padding: 60px 0 40px;
+    overflow: hidden;
+}
+.recommended-offer-title{
+    text-align: center;
+    font-size: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    font-family: SimSun,Microsoft YaHei,serif;
+}
+.recommended-offer-wrap{
+    width: 1215px;
+    height: 442px;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 400;
+    font-family: Montserrat,SimHei,Microsoft YaHei,sans-serif;
+}
+.wrap{
+    display: flex;
+    padding-top: 20px;
+}
+.recommended-offer-item{
+    width: 370px;
+    height: 420px;
+    padding: 10px 15px 0;
+    text-align: center;
+    position: relative;
+    background: #fff;
+    margin-right: 35px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.08);
+}
+.recommended_offer_medium{
+    position: absolute;
+    bottom: 24px;
+    font-size: 14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 30px;
+    line-height: 28px;
+    color: #876a20;
+    border: 1px solid;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: Montserrat,SimHei,Microsoft YaHei,sans-serif;
+}
+.img_wrap_background01{
+    background-image: url("../images/tjyh1.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background02{
+    background-image: url("../images/tjyh2.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background03{
+    background-image: url("../images/tjyh3.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+
+
+
+/*
+yh_foot的css属性
+ */
+.yh_foot{
+    width: 100%;
+    background-color: #fff;
+}
+.yh_foot_content{
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.all_offer{
+    padding: 60px 0 30px;
+}
+.all_offer_title{
+    text-align: center;
+    font-size: 28px;
+    font-family: SimSun,Microsoft YaHei,serif;
+}
+
+.all-offer-item:nth-child(3n+1){
+    margin-left: 0;
+}
+.all-offer-item{
+    position: relative;
+    margin-top: 38px;
+    width: 340px;
+    height: 360px;
+    padding: 10px 13px;
+    margin-left: 35px;
+    display: inline-block;
+}
+.is_text_regular{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    background: #fff;
+    opacity: .86;
+    border-radius: 15px 0 0 15px;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 4px 0 10px;
+    color: #000;
+    background-size: 14px;
+    font-family: Montserrat,SimHei,Microsoft YaHei,sans-serif;
+}
+.img_wrap_background1{
+    background-image: url("../images/gbjhyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background2{
+    background-image: url("../images/zmyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background3{
+    background-image: url("../images/zsyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background4{
+    background-image: url("../images/djjdyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background5{
+    background-image: url("../images/slyjkyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background6{
+    background-image: url("../images/ydyxxyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background7{
+    background-image: url("../images/ddylyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.img_wrap_background8{
+    background-image: url("../images/qqyh.jpg");
+    background-size: cover;
+    width: 340px;
+    height: 170px;
+    cursor: pointer;
+}
+.offer_title_regular{
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: SimSun,Microsoft YaHei,serif;
+}
+.offer_title_desc{
+    height: 60px;
+    color: #333;
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.offer_title_medium{
+    position: absolute;
+    left: 14px;
+    bottom: 24px;
+    color: #876a20;
+    font-size: 14px;
+    cursor: pointer;
+    padding-right: 18px;
+    font-weight: 500;
+    font-family: Montserrat,SimHei,Microsoft YaHei,sans-serif;
+}
